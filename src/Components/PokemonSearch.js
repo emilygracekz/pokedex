@@ -11,8 +11,8 @@ const PokemonSearch = () => {
 	const [searchValue, setSearchValue] = useState("");
 	const [pokemonDetails, setPokemonDetails] = useState("");
     const [evolvesTo, setEvolvesTo] = useState("")
-    const [moves, setMoves] = useState()
-    const [types, setTypes] = useState()
+    const [moves, setMoves] = useState([])
+    const [types, setTypes] = useState([])
 
 	const onSearchValueChange = (event) => {
 		const value = event.target.value;
