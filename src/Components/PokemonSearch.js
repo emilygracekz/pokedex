@@ -13,7 +13,7 @@ const PokemonSearch = () => {
 	const [moves, setMoves] = useState([]);
 	const [types, setTypes] = useState([]);
 
-	const onSearchValueChange = (event) => {
+    const onSearchValueChange = (event) => {
 		const value = event.target.value;
 		setSearchValue(value);
 		setPokemon(pokemonIndex.filter((monster) => monster.name.includes(value)));
@@ -48,7 +48,7 @@ const PokemonSearch = () => {
 				placeholder="Search Pokemon"
 			/>
 			<div className="pokedex__content">
-				{pokemon.length > 0 ? (
+				{pokemon.length !== 0 || searchValue === "" ? (
 					<div className="pokedex__search-results">
 						{pokemon.map((monster) => {
 							return (
