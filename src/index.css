@@ -11,11 +11,12 @@ body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-  padding: 2rem;
+	padding: 2rem;
 }
 
 .pokedex__content {
 	display: flex;
+	padding: 1rem;
 }
 
 .pokedex__search-input {
@@ -30,18 +31,18 @@ body {
 	flex-direction: column;
 	overflow: scroll;
 	border: 2px solid red;
-	margin: 1rem;
+	margin-right: 1rem;
 }
 
 .pokedex__list-item {
-  display: flex;
+	display: flex;
 	justify-content: center;
-  padding: 1rem;
+	padding: 1rem;
 	border-top: 2px solid black;
 }
 
 .pokedex__monster-name {
-	width: 100px;
+	width: 6rem;
 	align-items: left;
 }
 
@@ -49,35 +50,31 @@ body {
 	height: 20rem;
 	width: 25rem;
 	display: flex;
-  flex-direction: column;
+	flex-direction: column;
 	border: 2px solid black;
+	margin-left: 1rem;
 }
 
 .pokedex__detail-header {
-  align-self: center;
-  text-align: center;
-  font-size: 1rem;
-}
-
-.p {
-  padding: 0;
+	align-self: center;
+	text-align: center;
+	font-size: 1rem;
 }
 
 .pokedex__detail-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 .pokedex__detail-column {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
 }
 
 .pokedex__detail-text {
-  display: flex;
-  flex-direction: column;
-
-  align-self: center;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
 }

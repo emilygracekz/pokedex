@@ -1,9 +1,7 @@
-import PokemonSearch from "./Components/PokemonSearch"
+import PokemonSearch from "./Components/PokemonSearch";
 
 function App() {
-	return (
-            <PokemonSearch />
-	);
+	return <PokemonSearch />;
 }
 
 export default App;

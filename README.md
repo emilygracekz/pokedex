@@ -4,16 +4,16 @@
 - ✅ Typing in the search input should filter the existing Pokemon list and render only matches found
 - ✅ Fix any bugs that prevent the search functionality from working correctly
 - ✅ If there are no results from search, render "No Results Found"
-- The search results container should be scrollable
-- The UI should match the below mockup
+- ✅ The search results container should be scrollable
+- ✅ The UI should match the below mockup
 
 ![](mockup0.png)
 
 ### Details Card
      
-- Clicking "Get Details" for any given Pokemon should render a card that has the Pokemon's `name`, `types`, `moves`, and `evolution chain`
-- Use the api functions defined in `api.js` to retrieve this data. Adding new endpoints or editing existing ones are out of scope
-- The details card should match the below mockup
+- ✅ Clicking "Get Details" for any given Pokemon should render a card that has the Pokemon's `name`, `types`, `moves`, and `evolution chain`
+- ✅ Use the api functions defined in `api.js` to retrieve this data. Adding new endpoints or editing existing ones are out of scope
+- ✅ The details card should match the below mockup
 
 ![](mockup1.png)
 
