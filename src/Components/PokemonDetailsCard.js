@@ -1,10 +1,12 @@
 
 
-const PokemonDetailsCard = () => {
+const PokemonDetailsCard = ({pokemonDetails, types, moves, evolvesTo}) => {
 
+console.log(types, moves, evolvesTo)
+    
     return (
-        <div>
-            <p>hello</p>
+        <div className="pokedex__details">
+            <h1>{pokemonDetails}</h1>
         </div>
     )
 
